@@ -51,6 +51,7 @@ $ python manage.py startapp app
 I named it "app" because it's too confusing to have multiple `pomodoro` folders.
 
 - [x] Get a [working index page](http://127.0.0.1:8001/app/).
+- [x] Import Pomodoro class into `models.py`
 
 - [ ] Find out if I need business logic from `custom_pomodoro.py`.
 - [ ] Front end
