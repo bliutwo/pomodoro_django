@@ -40,7 +40,13 @@ It looks like I need to ~~create a `urls.py` (or use the existing one) to~~...
 
 Let's keep it simple here. I need to modify `views.py` and `urls.py`. Let's find out from the official tutorial how that's going to work.
 
-- [ ] Check the official Django tutorial for `urls.py` and `views.py`.
+- [x] Check the official Django tutorial for `urls.py` and `views.py`.
+
+OK, so [according to this](https://docs.djangoproject.com/en/3.0/intro/tutorial01/#write-your-first-view) I only ran `django-admin startproject pomodoro`, which creates the "project." This is the first step to creating the app. Next, I need to actually run the command that creates the app:
+
+```bash
+$ python manage.py startapp pomodoro
+```
 
 - [ ] Find out if I need business logic from `custom_pomodoro.py`.
 - [ ] Front end
