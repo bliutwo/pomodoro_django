@@ -34,7 +34,13 @@ Because of that, I'll be wanting to create a directory in `pomodoro` called `tem
 
 Why isn't my web page showing up? I'm still getting the default "yay, you successfully installed and ran your page."
 
-- [ ] Find out why my web page isn't showing up
+- [x] Find out why my web page isn't showing up
+
+It looks like I need to ~~create a `urls.py` (or use the existing one) to~~...
+
+Let's keep it simple here. I need to modify `views.py` and `urls.py`. Let's find out from the official tutorial how that's going to work.
+
+- [ ] Check the official Django tutorial for `urls.py` and `views.py`.
 
 - [ ] Find out if I need business logic from `custom_pomodoro.py`.
 - [ ] Front end
