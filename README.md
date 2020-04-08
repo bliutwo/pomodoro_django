@@ -45,8 +45,12 @@ Let's keep it simple here. I need to modify `views.py` and `urls.py`. Let's find
 OK, so [according to this](https://docs.djangoproject.com/en/3.0/intro/tutorial01/#write-your-first-view) I only ran `django-admin startproject pomodoro`, which creates the "project." This is the first step to creating the app. Next, I need to actually run the command that creates the app:
 
 ```bash
-$ python manage.py startapp pomodoro
+$ python manage.py startapp app
 ```
+
+I named it "app" because it's too confusing to have multiple `pomodoro` folders.
+
+- [x] Get a [working index page](http://127.0.0.1:8001/app/).
 
 - [ ] Find out if I need business logic from `custom_pomodoro.py`.
 - [ ] Front end
