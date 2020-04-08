@@ -6,4 +6,10 @@ Moreover, I want to be able to full screen applications while running this app f
 
 ## TODO:
 
-- [ ] Get a working version of this app.
+The main goal is to get a working version of this app.
+
+- [x] Import base `Pomodoro.py` class
+- [ ] Find out from [Glicko-django](https://github.com/bliutwo/django-glicko2) what I need for a working website.
+- [ ] Find out if I need business logic from `custom_pomodoro.py`.
+- [ ] Front end
+- [ ] Back end
