@@ -53,6 +53,12 @@ I named it "app" because it's too confusing to have multiple `pomodoro` folders.
 - [x] Get a [working index page](http://127.0.0.1:8001/app/).
 - [x] Import Pomodoro class into `models.py`
 
+I was looking at [this section](https://docs.djangoproject.com/en/3.0/intro/tutorial02/) of the guide and it wasn't working as intended, specifically the step that requires this command:
+
+```bash
+$ python manage.py makemigrations polls
+```
+
 - [ ] Find out if I need business logic from `custom_pomodoro.py`.
 - [ ] Front end
 - [ ] Back end
