@@ -32,7 +32,9 @@ Because of that, I'll be wanting to create a directory in `pomodoro` called `tem
 
 - [x] Create a directory in `pomodoro` called `templates`, and then a directory inside `templates` called `pomodoro`.
 
-Why isn't my web
+Why isn't my web page showing up? I'm still getting the default "yay, you successfully installed and ran your page."
+
+- [ ] Find out why my web page isn't showing up
 
 - [ ] Find out if I need business logic from `custom_pomodoro.py`.
 - [ ] Front end
