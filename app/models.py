@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Pomodoro (object):
+class Pomodoro (models.Model):
     # default values for Pomodoro class
     def __init__(self):
         self.count = 0
