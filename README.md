@@ -71,6 +71,8 @@ The way to display my front end was to create a folder in app called `templates/
 
 Maybe I don't need to make a Django page for this? Can I do this just using HTML/CSS/Javascript?
 
+Also, there's a [looping pomodoro timer](https://www.tomatotimers.com/) already made. Actually making it *would* be a good learning experience.
+
 - [ ] Find out if I need business logic from `custom_pomodoro.py`.
 - [ ] Front end
 - [ ] Back end
