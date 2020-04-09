@@ -59,6 +59,12 @@ I was looking at [this section](https://docs.djangoproject.com/en/3.0/intro/tuto
 $ python manage.py makemigrations polls
 ```
 
+- [x] Fix problem described above (makemigrations not working)
+
+Apparently in my `app/models.py` I didn't create my `Pomodoro` class based off of the `models.Model` class. Doing so fixed that problem. The next thing I need to do is to find out how to display my front-end:
+
+- [ ] Find out from guide or django-glicko how to display front-end
+
 - [ ] Find out if I need business logic from `custom_pomodoro.py`.
 - [ ] Front end
 - [ ] Back end
