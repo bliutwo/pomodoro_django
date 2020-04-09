@@ -63,7 +63,13 @@ $ python manage.py makemigrations polls
 
 Apparently in my `app/models.py` I didn't create my `Pomodoro` class based off of the `models.Model` class. Doing so fixed that problem. The next thing I need to do is to find out how to display my front-end:
 
-- [ ] Find out from guide or django-glicko how to display front-end
+- [x] Find out from guide or django-glicko how to display front-end
+
+The way to display my front end was to create a folder in app called `templates/app` and then make an `index.html` file in there.
+
+- [ ] Actually make two front-end pages, one for getting input, one for displaying things after input is gotten.
+
+Maybe I don't need to make a Django page for this? Can I do this just using HTML/CSS/Javascript?
 
 - [ ] Find out if I need business logic from `custom_pomodoro.py`.
 - [ ] Front end
